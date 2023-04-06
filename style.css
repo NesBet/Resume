@@ -57,7 +57,7 @@ h2 {
 h3 {
     font-size: 1em;
     padding-bottom: 1em;
-    color: #0af4e0; 
+    color: #074844; 
 }
 
 #mainLeft {
@@ -73,6 +73,6 @@ a {
 }
 
 a:hover {
-    color: #eb0f0f; 
+    color: #0feb0f; 
     border-bottom-color: #14d244; 
 }
