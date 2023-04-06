@@ -3,7 +3,7 @@ body {
     font-size: 12px;
     max-width: 960px;
     margin: auto;
-    background-color: #0de1f0;
+    background-color: #43979d;
 }
 
 main { 
@@ -45,7 +45,7 @@ h1 {
     letter-spacing: .6em;
     padding-top: 1em;
     padding-bottom: 1em;
-    color: #333333; 
+    color: #a6a229; 
 }
 
 h2 {
@@ -73,6 +73,6 @@ a {
 }
 
 a:hover {
-    color: #0feb0f; 
-    border-bottom-color: #14d244; 
+    color: #eb2c0f; 
+    border-bottom-color: #c5e110; 
 }
