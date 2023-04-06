@@ -3,7 +3,7 @@ body {
     font-size: 12px;
     max-width: 960px;
     margin: auto;
-    background-color: #43979d;
+    background-color: #154f53;
 }
 
 main { 
@@ -45,7 +45,7 @@ h1 {
     letter-spacing: .6em;
     padding-top: 1em;
     padding-bottom: 1em;
-    color: #a6a229; 
+    color: #141414; 
 }
 
 h2 {
@@ -57,7 +57,7 @@ h2 {
 h3 {
     font-size: 1em;
     padding-bottom: 1em;
-    color: #9d9e50; 
+    color: #00aa14; 
 }
 
 #mainLeft {
