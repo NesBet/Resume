@@ -3,6 +3,7 @@ body {
     font-size: 12px;
     max-width: 960px;
     margin: auto;
+    background-color: #f2f7ff; /* set background color to light blue */
 }
 
 main { 
@@ -44,17 +45,34 @@ h1 {
     letter-spacing: .6em;
     padding-top: 1em;
     padding-bottom: 1em;
+    color: #333; /* set color to dark gray */
 }
 
 h2 {
     font-size: 1.5em;
     padding-bottom: 1em;
+    color: #333; /* set color to dark gray */
 }
 
 h3 {
     font-size: 1em;
     padding-bottom: 1em;
+    color: #333; /* set color to dark gray */
 }
+
 #mainLeft {
     border-right: 1px solid lightgray;
+}
+
+/* add styling for links */
+a {
+    color: #0070c9; /* set link color to blue */
+    text-decoration: none;
+    border-bottom: 1px solid #0070c9; /* add underline effect on hover */
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #005499; /* set link color to darker blue on hover */
+    border-bottom-color: #005499; /* change underline color on hover */
 }
