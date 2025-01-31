@@ -1,78 +1,117 @@
+/* General Styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12px;
-    max-width: 960px;
+    font-size: 14px;
+    max-width: 1200px;
     margin: auto;
-    background-color: #bfcebafa;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
 }
 
-main { 
+main {
     display: grid;
     grid-template-columns: 40% 60%;
+    gap: 2em;
     margin-top: 3em;
 }
 
 header {
     text-align: center;
     margin: auto 2em;
+    padding: 1em 0;
 }
 
 section {
-    margin: auto 1em 4em 2em;
+    margin: 1em 0;
 }
 
-i {
-    margin-right: .5em;
+/* Typography */
+h1, h2, h3 {
+    font-weight: 600;
+    margin-bottom: 0.5em;
 }
 
-p {
-    margin: .2em auto
+h1 {
+    font-size: 3em;
+    letter-spacing: 0.2em;
+    color: #141414;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #d62222;
+    border-bottom: 2px solid #d62222;
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #00aa14;
 }
 
 hr {
     border: none;
     background-color: rgb(235, 235, 13);
     height: 1px;
+    margin: 1em 0;
 }
 
-h1, h2, h3 {
-    font-weight: 100;
-    margin-bottom: 0;
-}
-
-h1 {
-    font-size: 3em;
-    letter-spacing: .6em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    color: #141414; 
-}
-
-h2 {
-    font-size: 1.5em;
-    padding-bottom: 1em;
-    color: #d62222; 
-}
-
-h3 {
-    font-size: 1em;
-    padding-bottom: 1em;
-    color: #00aa14; 
-}
-
-#mainLeft {
-    border-right: 1px solid lightgray;
-}
-
-
+/* Links */
 a {
-    color: #0070c9; 
+    color: #0070c9;
     text-decoration: none;
     border-bottom: 1px solid #0070c9;
     transition: all 0.2s ease-in-out;
 }
 
 a:hover {
-    color: #eb2c0f; 
-    border-bottom-color: #c5e110; 
+    color: #eb2c0f;
+    border-bottom-color: #c5e110;
+}
+
+/* Left Column */
+#mainLeft {
+    border-right: 1px solid lightgray;
+    padding-right: 1em;
+}
+
+#mainLeft section {
+    margin-bottom: 2em;
+}
+
+/* Right Column */
+#mainRight {
+    padding-left: 1em;
+}
+
+#mainRight p {
+    margin: 0.5em 0;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    margin-left: 1.5em;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    #mainLeft {
+        border-right: none;
+        padding-right: 0;
+    }
+
+    #mainRight {
+        padding-left: 0;
+    }
 }
