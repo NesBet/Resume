@@ -11,7 +11,7 @@ This project was built using just HTML and CSS.
    - HTML: This is the technology used to structure websites.  
    - CSS: Technology responsible for styling websites.  
 ## Project Demo  
-This simple website can be accessed **[here](https://nesbet.github.io/Resume/)**  
+This simple website can be accessed **[here](https://nesbet.github.io/Resume/)**.  
 
 ## More info  
 You can find more information about Nehemiah on his [portfolio](https://neshkibet.vercel.app) from the link below;
