@@ -9,7 +9,7 @@ This project was built using just HTML and CSS.
 This simple website can be accessed **[here](https://nesbet.github.io/Resume/)**  
 
 ## More info  
-You can find more information about Nehemiah on his portfolio from the link below;
+You can find more information about Nehemiah on his [portfolio](https://neshkibet.vercel.app) from the link below;
 ##
     https://neshkibet.vercel.app
 ##
