@@ -1,5 +1,10 @@
-# Nehemiah Kibet Overview  
+# Resume Overview  
 This repository represents a simple website that showcases who Nehemiah is and his skills.  
+
+# Table of Contents  
+* [Building Blocks](#Project's-Building-Blocks)
+* [Demo](#Project-Demo)
+* [Additional Info](#More-info)
 
 ## Project's Building Blocks
 This project was built using just HTML and CSS.  
